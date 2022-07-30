@@ -2,7 +2,7 @@ package math
 
 import "math"
 
-func MyRoundFloat(val float64, precision uint) float64 {
-	ratio := math.Pow(10, float64(precision))
+func MyRoundFloat(val float64, precision int8) float64 {
+	ratio := math.Pow10(int(precision))
 	return math.Round(val*ratio) / ratio
 }
