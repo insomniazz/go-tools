@@ -22,7 +22,7 @@ func MyRoundFloat3(f float64, digits int) float64 {
 	//if math.Abs(f) < 0.5 {
 	//	return 0
 	//}
-	fmt.Println("float 3")
+	fmt.Println("float 3 v2.0.1")
 	pow := math.Pow10(digits)
 	return math.Trunc(f*pow+math.Copysign(0.5, f)) / pow
 }
