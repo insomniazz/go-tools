@@ -1,3 +1,3 @@
-module github.com/insomniazz/go-tools/v2
+module insomniazz.com/x/go-tools/v3
 
 go 1.14
